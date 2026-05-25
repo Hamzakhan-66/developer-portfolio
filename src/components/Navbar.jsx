@@ -12,6 +12,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Navbar section with smooth scroll and active link highlighting
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
